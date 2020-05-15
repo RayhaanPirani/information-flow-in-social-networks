@@ -20,7 +20,7 @@ Contains a method to sort a given Map in the descending order depending on their
 ## ProjectTester (class)
 A class that contains a main() method to test the project.
 ## Overall Design Justification
-We do most of the work in the CapGraph class. It is because whatever we want to perform is directly related to the graph and placing the methods that are related to the graph inside a concrete implementation of the graph (i.e., CapGraph) would increase cohesion of our program. We use a separate class called ProjectTest only for testing our project and MapUtils class to perform an operation related to Maps, which is not directly related to the graph. Plus, having less classes for this project makes it simpler and easier to understand. The main goal of such a design was to increase cohesion within each class and reduce coupling among all the classes.
+We do most of the work in the CapGraph class. It is because whatever we want to perform is directly related to the graph and placing the methods that are related to the graph inside a concrete implementation of the graph (i.e., CapGraph) would increase cohesion of our program. We use a separate class called ProjectTester only for testing our project and MapUtils class to perform an operation related to Maps, which is not directly related to the graph. Plus, having less classes for this project makes it simpler and easier to understand. The main goal of such a design was to increase cohesion within each class and reduce coupling among all the classes.
 
 
 # Data
